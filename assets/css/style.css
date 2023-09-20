@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(55, 54, 54);
+}
+
+.navbar{
+
+    background-color: black;
+    background: rgba(0, 0, 0,.5);
+   
+
+}
+.active-item{
+    color: rgb(3, 47, 188);
+}
+.start {
+    color: white;
+}
+
+
+
+.navbar-brand {
+    margin-top: 40px;
+    margin-right: 700px;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.tx {
+    font-size: x-large;
+}
+
+.tx1 {
+    font-size: 50px;
+}
+
+#home {    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)),url('../../imgs/1.webp') no-repeat center center /cover;
+   /* position: relative;
+    background-image: url('../../imgs/1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 800px;*/
+
+}
+.line1 , .line2 , .line3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+}
+.menu-item {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #EEE;
+    transition: color .5s;
+}
+.navbar-nav {
+    text-align: left;
+   padding-right: 500px;
+}
+
+.intro {
+    z-index: 1;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 800px;
+
+
+}
+
+.box1 {
+    margin-left: 300px;
+}
+
+.card {
+    position: relative;
+}
+
+.card-body {
+    position: absolute;
+    background-color: rgb(6, 6, 6);
+    opacity: 0.5;
+    margin-top: 250px;
+    margin-left: 203px;
+    width: 250px;
+    height: 10px;
+    color: white;
+    font-weight: bold;
+    padding-top: 0%;
+
+}
+
+.gallery-list-item {
+    color: #777;
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.customers {
+    background-color: black;
+}
+.active-item {
+    color: #0a36e2;
+}
